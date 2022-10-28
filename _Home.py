@@ -7,9 +7,9 @@ st.set_page_config(
     page_title="Hello Page",
     page_icon="👋",
 )
-data_depo = json.load(open("../Final-data-app/archive/deposit.json"))
-df3 = pd.read_csv('../Final-data-app/archive/terra-luna.csv')
-df5 = pd.read_csv('../Final-data-app/archive/ethereum.csv')
+data_depo = json.load(open("D:/resource/MISY225/my-streamlit/final-data/final-data/archive/deposit.json"))
+df3 = pd.read_csv('D:/resource/MISY225/my-streamlit/final-data/final-data/archive/terra-luna.csv')
+df5 = pd.read_csv('D:/resource/MISY225/my-streamlit/final-data/final-data/archive/ethereum.csv')
 
 str_description1 = '''
 ##### 1 Data from https://www.kaggle.com/datasets/avanawallet/crypto-price-data-during-terra-luna-crash provide by AvanaWallet

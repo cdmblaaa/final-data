@@ -8,8 +8,8 @@ import datetime
 
 
 # read file
-data_depo = json.load(open("../Final-data-app/archive/deposit.json"))
-data_borrow = json.load(open("../Final-data-app/archive/borrow.json"))
+data_depo = json.load(open("D:/resource/MISY225/my-streamlit/final-data/final-data/archive/deposit.json"))
+data_borrow = json.load(open("D:/resource/MISY225/my-streamlit/final-data/final-data/archive/borrow.json"))
 
 # handle data type
 timestamp_depo = [item['timestamp']/1000 for item in data_depo['total_ust_deposits']]
